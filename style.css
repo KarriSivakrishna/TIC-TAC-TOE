@@ -1,0 +1,79 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+    background-color:#A755C2 ;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin; 
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,01);
+    font-size: 8vmin;
+    background-color: #f9f9f2;
+    color: black;
+
+}
+#reset-btn {
+
+    padding: 1.2rem;
+    background-color: #191913;
+    font-size: 1rem;
+    color: chartreuse;
+    border-radius: 1rem;
+    border: none;
+
+
+}
+#new-btn{
+    padding: 0.6rem;
+    background-color: #ef0ba3;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+
+
+}
+
+#msg {
+   color: #080008;
+   font-size: 8vmin;
+}
+    
+
+.msg-container {
+    /* Style for the congratulatory message */
+    text-align: center;
+    font-size: 1.5em;
+    height: 100vmin;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hide {
+    display: none;
+}
+.game-container {
+    /* Style for the game grid or container */
+}
